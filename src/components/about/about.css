@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.about {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  /* margin-top: -70px; */
+}
+
+.aboutLeft,
+.aboutRight {
+  flex: 3;
+}
+
+.aboutLeft {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.aboutDesc {
+  width: 80%;
+  margin-top: -100px;
+  color: white;
+  margin-bottom: 100px;
+}
+.aboutRight {
+  margin-right: 50px;
+}
+
+.socialsList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: -100px;
+}
+
+.socialsListIcon {
+  font-size: 34px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.socialsListItem {
+  margin-left: 40px;
+}
+
+.developer {
+  color: rebeccapurple;
+  margin-bottom: -140px;
+  display: flex;
+}
+
+.devsocialsList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.devsocialsListIcon {
+  margin-left: 25px;
+  cursor: pointer;
+}

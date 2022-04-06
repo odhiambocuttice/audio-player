@@ -1,0 +1,4 @@
+.AllStories {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,48 @@
+.single-post {
+  width: 100vh;
+  height: 60vh;
+  margin: 0px 14px;
+}
+.single-post > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 14px;
+  border-radius: 4px;
+}
+
+.post-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 5px;
+}
+
+.post-title {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.post-date {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 14px;
+  color: grey;
+}
+
+.post-write {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  margin: 14px 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

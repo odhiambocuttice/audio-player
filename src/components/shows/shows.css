@@ -1,0 +1,39 @@
+.menu {
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.arrow-left {
+  width: 50vh;
+  height: 100%;
+  color: red;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+  z-index: 99;
+}
+.arrow-right {
+  width: 50px;
+  height: 100%;
+  color: red;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
+.shows {
+  display: flex;
+  overflow: hidden;
+  margin-left: 20px;
+  width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  /* cursor: pointer; */
+}

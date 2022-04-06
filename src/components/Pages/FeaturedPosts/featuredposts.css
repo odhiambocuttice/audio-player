@@ -1,0 +1,18 @@
+.major-post {
+  background-color: rgb(158, 33, 183);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.posts {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-top: -70px; */
+}
+
+.title-post {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 14px;
+}
