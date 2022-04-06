@@ -44,13 +44,13 @@ export const AudioPlayer = (props) => {
     }, [1000]);
   };
 
-  const onScrub = (value) => {
-    // Clear any timers already running
-    clearInterval(intervalRef.current);
-    audioRef.current.currentTime = value;
-    setTrackProgress(audioRef.current.currentTime);
+  // const onScrub = (value) => {
+  //   // Clear any timers already running
+  //   clearInterval(intervalRef.current);
+  //   audioRef.current.currentTime = value;
+  //   setTrackProgress(audioRef.current.currentTime);
 
-  };
+  // };
 
   const onVol = (value) => {
     // Clear any timers already running
@@ -59,13 +59,13 @@ export const AudioPlayer = (props) => {
 
   };
 
-  const onScrubEnd = () => {
-    // If not already playing, start
-    if (!isPlaying) {
-      setIsPlaying(true);
-    }
-    startTimer();
-  };
+  // const onScrubEnd = () => {
+  //   // If not already playing, start
+  //   if (!isPlaying) {
+  //     setIsPlaying(true);
+  //   }
+  //   startTimer();
+  // };
 
   const toPrevTrack = () => {
     if (trackIndex - 1 < 0) {
@@ -107,6 +107,7 @@ export const AudioPlayer = (props) => {
       // Set the isReady ref as true for the next pass
       isReady.current = true;
     }
+    // eslint-disable-next-line 
   }, [trackIndex, audioSrc]);
 
   useEffect(() => {

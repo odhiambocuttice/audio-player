@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "./topbar.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { AllStories } from "../Pages/AllStories/AllStories";
 
 export const TopBar = () => {
   // set the top bar to black when scrolling

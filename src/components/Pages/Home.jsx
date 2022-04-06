@@ -5,7 +5,7 @@ import { FeaturedPosts } from "./FeaturedPosts/FeaturedPosts";
 import { About } from "../about/About";
 import { Shows } from "../shows/Shows";
 import { TopBar } from "../TopBar/TopBar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router} from "react-router-dom";
 
 export const Home = () => {
   return (
